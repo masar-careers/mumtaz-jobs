@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ممتاز — التقديم التلقائي على الوظائف بالذكاء الاصطناعي | السعودية والخليج</title>
+<meta name="description" content="ارفع سيرتك الذاتية مرة واحدة، وممتاز يقدّم عنك يوميًا على الوظائف المطابقة لخبراتك في السعودية والخليج — بسيرة ذاتية مخصّصة لكل وظيفة.">
+<meta name="keywords" content="التقديم التلقائي, وظائف السعودية, وظائف الخليج, سيرة ذاتية, بحث عن عمل, ممتاز">
+<meta property="og:title" content="ممتاز — التقديم التلقائي على الوظائف بالذكاء الاصطناعي">
+<meta property="og:description" content="سيرة ذاتية مخصّصة لكل وظيفة، وتقديم يومي تلقائي في السعودية والخليج.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0F241C;
+  --ink-soft:#3C5248;
+  --green:#0B6B4F;
+  --green-deep:#084C39;
+  --gold:#C9A34A;
+  --gold-soft:#F3E8CF;
+  --paper:#FFFFFF;
+  --mist:#F2F6F3;
+  --line:#DCE7E0;
+  --white:#FFFFFF;
+  --radius:18px;
+  --shadow:0 10px 30px rgba(8,76,57,.10);
+  --display:'Alexandria',sans-serif;
+  --body:'IBM Plex Sans Arabic',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.75;font-size:16px;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);line-height:1.35}
+img{max-width:100%}
+a{color:inherit;text-decoration:none}
+.container{max-width:1140px;margin:0 auto;padding:0 22px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--mist);color:var(--green-deep);border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600}
+.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--display);font-weight:600;font-size:15px;padding:13px 26px;border-radius:12px;border:none;cursor:pointer;transition:transform .15s ease, box-shadow .15s ease}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.btn-primary{background:var(--green);color:#fff;box-shadow:0 6px 18px rgba(11,107,79,.30)}
+.btn-primary:hover{background:var(--green-deep);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--green-deep);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--green)}
+
+/* ===== Header ===== */
+header{position:sticky;top:0;z-index:50;background:rgba(250,251,249,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:22px;color:var(--green-deep)}
+.logo-badge{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--green),var(--green-deep));display:grid;place-items:center;color:var(--gold);font-size:18px}
+.nav-links{display:flex;gap:26px;font-size:14.5px;font-weight:500;color:var(--ink-soft)}
+.nav-links a:hover{color:var(--green)}
+.nav-cta{display:flex;gap:10px;align-items:center}
+.made-in{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-soft);background:var(--mist);padding:5px 11px;border-radius:999px;border:1px solid var(--line)}
+@media(max-width:860px){.nav-links,.made-in{display:none}}
+
+/* ===== Hero ===== */
+.hero{padding:64px 0 40px;background:#FFFFFF}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(30px,4.4vw,48px);font-weight:800;color:var(--ink);margin:18px 0 16px}
+.hero h1 em{font-style:normal;color:var(--green);position:relative}
+.hero h1 em::after{content:"";position:absolute;right:0;left:0;bottom:4px;height:9px;background:var(--gold-soft);z-index:-1;border-radius:4px}
+.hero p.lead{font-size:17.5px;color:var(--ink-soft);max-width:520px}
+.hero-points{list-style:none;margin:22px 0 26px;display:grid;gap:10px}
+.hero-points li{display:flex;align-items:flex-start;gap:10px;font-size:15px;font-weight:500}
+.hero-points li::before{content:"✓";flex:none;width:22px;height:22px;border-radius:7px;background:var(--mist);color:var(--green);display:grid;place-items:center;font-size:13px;font-weight:700;margin-top:3px}
+.trust-row{display:flex;gap:18px;margin-top:18px;font-size:12.5px;color:var(--ink-soft);flex-wrap:wrap}
+.trust-row span{display:inline-flex;align-items:center;gap:6px}
+
+/* Upload card */
+.upload-card{background:var(--white);border:1.5px dashed var(--green);border-radius:var(--radius);padding:26px;text-align:center;cursor:pointer;transition:background .15s;margin-top:8px;max-width:520px}
+.upload-card:hover{background:var(--mist)}
+.upload-card .up-icon{width:52px;height:52px;margin:0 auto 12px;border-radius:14px;background:var(--mist);display:grid;place-items:center;font-size:24px;color:var(--green)}
+.upload-card b{font-family:var(--display);font-size:16px}
+.upload-card small{display:block;color:var(--ink-soft);margin-top:6px;font-size:12.5px}
+.upload-card input{display:none}
+.upload-ok{color:var(--green-deep);font-weight:600;margin-top:10px;display:none}
+
+/* Matching panel (signature element) */
+.match-panel{background:var(--white);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:22px;position:relative}
+.match-panel .panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.panel-head .live{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;color:var(--green-deep)}
+.live .pulse{width:9px;height:9px;border-radius:50%;background:var(--green);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(11,107,79,.45)}70%{box-shadow:0 0 0 9px rgba(11,107,79,0)}100%{box-shadow:0 0 0 0 rgba(11,107,79,0)}}
+.job-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--paper)}
+.job-card .jc-info b{font-family:var(--display);font-size:14.5px;display:block}
+.job-card .jc-info span{font-size:12px;color:var(--ink-soft)}
+.chips{display:flex;gap:6px;margin-top:7px;flex-wrap:wrap}
+.chip{font-size:10.5px;background:var(--mist);color:var(--green-deep);padding:2px 9px;border-radius:999px;font-weight:600}
+.match{font-family:var(--display);font-weight:800;font-size:20px;color:var(--green);min-width:56px;text-align:center}
+.match small{display:block;font-size:10px;color:var(--ink-soft);font-weight:500}
+.rewriting{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink-soft);border-top:1px dashed var(--line);padding-top:14px}
+.rewriting .bar{flex:1;height:7px;border-radius:99px;background:var(--mist);overflow:hidden}
+.rewriting .bar i{display:block;height:100%;width:40%;background:linear-gradient(90deg,var(--green),var(--gold));border-radius:99px;animation:load 2.4s ease-in-out infinite}
+@keyframes load{0%{width:15%}50%{width:85%}100%{width:15%}}
+.panel-note{font-size:11px;color:var(--ink-soft);text-align:center;margin-top:12px}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr}.match-panel{max-width:560px}}
+
+/* ===== Stats strip ===== */
+.stats{background:var(--green-deep);color:#fff;padding:34px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.stat b{font-family:var(--display);font-size:clamp(24px,3vw,34px);color:var(--gold);display:block}
+.stat span{font-size:13px;opacity:.85}
+@media(max-width:720px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* ===== Sections ===== */
+section{padding:76px 0}
+.sec-head{max-width:640px;margin-bottom:44px}
+.sec-head h2{font-size:clamp(24px,3.2vw,34px);font-weight:700;margin:14px 0 12px}
+.sec-head p{color:var(--ink-soft)}
+
+/* Steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.step{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:26px;position:relative;transition:transform .18s, box-shadow .18s}
+.step:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.step .num{font-family:var(--display);font-weight:800;font-size:15px;color:var(--gold);background:var(--ink);width:38px;height:38px;border-radius:11px;display:grid;place-items:center;margin-bottom:16px}
+.step h3{font-size:17.5px;margin-bottom:8px}
+.step p{font-size:14px;color:var(--ink-soft)}
+.step .tag{display:inline-block;margin-top:14px;font-size:11.5px;font-weight:600;color:var(--green-deep);background:var(--mist);padding:4px 11px;border-radius:999px}
+@media(max-width:860px){.steps{grid-template-columns:1fr}}
+
+/* Features */
+.features{background:var(--mist)}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.feat{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:30px}
+.feat h3{font-size:19px;margin:14px 0 10px}
+.feat p{font-size:14.5px;color:var(--ink-soft)}
+.feat ul{list-style:none;margin-top:16px;display:grid;gap:9px}
+.feat li{display:flex;gap:9px;font-size:14px;font-weight:500}
+.feat li::before{content:"◆";color:var(--gold);font-size:11px;margin-top:5px}
+.mini-filter{margin-top:20px;border-top:1px dashed var(--line);padding-top:16px;display:flex;flex-wrap:wrap;gap:7px}
+.mini-filter .chip{font-size:12px;padding:5px 13px}
+.chip.on{background:var(--green);color:#fff}
+@media(max-width:860px){.feat-grid{grid-template-columns:1fr}}
+
+/* Testimonials */
+.reviews .disclaimer{font-size:12px;color:var(--ink-soft);background:var(--gold-soft);border:1px solid #E8D8AE;border-radius:10px;padding:8px 14px;display:inline-block;margin-top:10px}
+.marquee{overflow:hidden;margin-top:36px;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marquee-track{display:flex;gap:18px;width:max-content;animation:scroll 55s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(50%)}}
+.review{width:310px;flex:none;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.review .stars{color:var(--gold);letter-spacing:2px;font-size:14px}
+.review p{font-size:13.5px;margin:10px 0 16px;min-height:84px}
+.review .who{display:flex;align-items:center;gap:10px}
+.review .avatar{width:38px;height:38px;border-radius:50%;background:var(--mist);color:var(--green-deep);display:grid;place-items:center;font-family:var(--display);font-weight:700;font-size:13px}
+.review .who b{font-size:13px;display:block}
+.review .who span{font-size:11.5px;color:var(--ink-soft)}
+@media(prefers-reduced-motion:reduce){.marquee-track{animation:none;flex-wrap:wrap}.rewriting .bar i,.live .pulse{animation:none}}
+
+/* FAQ */
+.faq-list{max-width:760px}
+.faq-item{border:1px solid var(--line);border-radius:14px;background:var(--white);margin-bottom:12px;overflow:hidden}
+.faq-q{width:100%;text-align:right;background:none;border:none;font-family:var(--display);font-weight:600;font-size:15.5px;color:var(--ink);padding:18px 20px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q .arrow{transition:transform .2s;color:var(--green);flex:none}
+.faq-item.open .arrow{transform:rotate(180deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-a p{padding:0 20px 18px;font-size:14px;color:var(--ink-soft)}
+
+/* CTA */
+.cta{background:linear-gradient(135deg,var(--green-deep),var(--green));border-radius:26px;color:#fff;padding:54px 34px;text-align:center}
+.cta h2{font-size:clamp(24px,3vw,32px);margin-bottom:12px}
+.cta p{opacity:.9;max-width:520px;margin:0 auto 26px;font-size:15px}
+.cta .btn-primary{background:var(--gold);color:var(--ink);box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.cta .btn-primary:hover{background:#d9b45c}
+
+/* Pricing */
+.pricing{background:var(--mist)}
+.price-card{max-width:460px;margin:0 auto;background:var(--white);border:2px solid var(--green);border-radius:22px;padding:36px 32px;text-align:center;box-shadow:var(--shadow);position:relative}
+.price-card .best{position:absolute;top:-14px;right:50%;transform:translateX(50%);background:var(--gold);color:var(--ink);font-family:var(--display);font-weight:700;font-size:12px;padding:5px 18px;border-radius:999px}
+.price-card h3{font-size:20px;margin-bottom:6px}
+.price{font-family:var(--display);font-weight:800;font-size:52px;color:var(--green-deep);line-height:1.1;margin:14px 0 2px}
+.price small{font-size:16px;font-weight:600;color:var(--ink-soft)}
+.price-sub{font-size:13px;color:var(--ink-soft);margin-bottom:20px}
+.price-list{list-style:none;text-align:right;display:grid;gap:10px;margin:22px 0 26px}
+.price-list li{display:flex;gap:9px;font-size:14px;font-weight:500}
+.price-list li::before{content:"✓";flex:none;width:20px;height:20px;border-radius:6px;background:var(--mist);color:var(--green);display:grid;place-items:center;font-size:12px;font-weight:700;margin-top:3px}
+.price-note{font-size:12px;color:var(--ink-soft);margin-top:14px}
+
+/* Modal (signup + payment) */
+.modal-overlay{position:fixed;inset:0;background:rgba(15,36,28,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:100;padding:18px}
+.modal-overlay.show{display:flex}
+.modal{background:var(--white);border-radius:22px;max-width:520px;width:100%;max-height:92vh;overflow-y:auto;padding:30px 28px;position:relative}
+.modal .close-x{position:absolute;top:14px;left:14px;background:var(--mist);border:none;width:34px;height:34px;border-radius:10px;font-size:16px;cursor:pointer;color:var(--ink-soft)}
+.modal h3{font-size:20px;margin-bottom:4px}
+.modal .m-sub{font-size:13.5px;color:var(--ink-soft);margin-bottom:20px}
+.m-steps{display:flex;gap:8px;margin-bottom:22px}
+.m-steps span{flex:1;height:5px;border-radius:99px;background:var(--line)}
+.m-steps span.on{background:var(--green)}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+.field input,.field select{width:100%;border:1.5px solid var(--line);border-radius:11px;padding:11px 14px;font-family:var(--body);font-size:14px;background:var(--paper);color:var(--ink)}
+.field input:focus,.field select:focus{outline:none;border-color:var(--green)}
+.modal .btn{width:100%;margin-top:8px}
+.pay-summary{display:flex;justify-content:space-between;align-items:center;background:var(--mist);border-radius:13px;padding:14px 18px;margin-bottom:18px;font-weight:600;font-size:14px}
+.pay-summary b{font-family:var(--display);color:var(--green-deep);font-size:18px}
+.bank-box{border:1.5px solid var(--line);border-radius:15px;overflow:hidden;margin-bottom:16px}
+.bank-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px;font-size:13.5px;border-bottom:1px solid var(--line)}
+.bank-row:last-child{border-bottom:none}
+.bank-row .bl{color:var(--ink-soft);font-size:12px;font-weight:600}
+.bank-row .bv{font-weight:600;direction:ltr;text-align:left}
+.copy-btn{background:var(--mist);border:1px solid var(--line);border-radius:8px;font-family:var(--body);font-size:12px;font-weight:600;color:var(--green-deep);padding:5px 12px;cursor:pointer}
+.copy-btn:hover{background:var(--green);color:#fff}
+.pay-note{font-size:12.5px;color:var(--ink-soft);background:var(--gold-soft);border:1px solid #E8D8AE;border-radius:11px;padding:10px 14px;margin-bottom:14px}
+.done-box{text-align:center;padding:16px 0}
+.done-box .big{width:64px;height:64px;border-radius:50%;background:var(--mist);color:var(--green);display:grid;place-items:center;font-size:30px;margin:0 auto 14px}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--ink-soft)}
+.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
+.foot-links{display:flex;gap:20px;flex-wrap:wrap}
+.foot-links a:hover{color:var(--green)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#" class="logo"><span class="logo-badge">★</span> ممتاز</a>
+    <nav class="nav-links">
+      <a href="#how">كيف يعمل</a>
+      <a href="#features">المميزات</a>
+      <a href="#reviews">آراء المستخدمين</a>
+      <a href="#faq">الأسئلة الشائعة</a>
+    </nav>
+    <div class="nav-cta">
+      <span class="made-in">🇸🇦 صناعة سعودية</span>
+      <button type="button" class="btn btn-ghost" onclick="openManage()">إدارة اشتراكي</button>
+      <button type="button" class="btn btn-primary" onclick="openSignup()">ابدأ التقديم</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> تقديم تلقائي بالذكاء الاصطناعي · السعودية والخليج</span>
+      <h1>سيرتك الذاتية تشتغل عنك.<br><em>ممتاز</em> يقدّم لك كل يوم.</h1>
+      <p class="lead">ارفع سيرتك الذاتية مرة واحدة، وممتاز يحلّل خبراتك ومؤهلاتك ويقدّم عنك يوميًا على الوظائف المطابقة لك في السعودية والخليج — إلى أن توقّع عقدك الجديد.</p>
+      <ul class="hero-points">
+        <li>سيرة ذاتية جديدة تُكتب خصيصًا لكل وظيفة</li>
+        <li>تقديم فقط على الوظائف المطابقة لخبراتك</li>
+        <li>مئات الطلبات شهريًا بدون أي مجهود منك</li>
+      </ul>
+
+      <label class="upload-card" id="dropzone">
+        <input type="file" id="cvInput" accept=".pdf,.doc,.docx">
+        <div class="up-icon">⇧</div>
+        <b>اسحب سيرتك الذاتية هنا أو اضغط للرفع</b>
+        <small>PDF أو DOC أو DOCX · تحليل مجاني خلال ثوانٍ</small>
+        <div class="upload-ok" id="uploadOk"></div>
+      </label>
+
+      <div class="trust-row">
+        <span>🔒 بياناتك مشفّرة وخاصة</span>
+        <span>👁 بحثك عن وظيفة يبقى سرّيًا</span>
+        <span>✕ إلغاء الاشتراك في أي وقت</span>
+      </div>
+    </div>
+
+    <div class="match-panel" aria-label="عرض توضيحي لمطابقة الوظائف">
+      <div class="panel-head">
+        <b style="font-family:var(--display);font-size:15px">وظائف تُطابق ملفك الآن</b>
+        <span class="live"><span class="pulse"></span> مباشر</span>
+      </div>
+
+      <div class="job-card">
+        <div class="jc-info">
+          <b>مهندس عمليات أول</b>
+          <span>قطاع الطاقة · الظهران</span>
+          <div class="chips"><span class="chip">السلامة</span><span class="chip">الموثوقية</span><span class="chip">الصيانة</span></div>
+        </div>
+        <div class="match"><span class="count" data-target="96">0</span>%<small>تطابق</small></div>
+      </div>
+
+      <div class="job-card">
+        <div class="jc-info">
+          <b>مدير مشاريع تقنية</b>
+          <span>الاتصالات · الرياض</span>
+          <div class="chips"><span class="chip">Agile</span><span class="chip">التحوّل الرقمي</span></div>
+        </div>
+        <div class="match"><span class="count" data-target="93">0</span>%<small>تطابق</small></div>
+      </div>
+
+      <div class="job-card">
+        <div class="jc-info">
+          <b>محلل بيانات</b>
+          <span>القطاع المالي · جدة</span>
+          <div class="chips"><span class="chip">Python</span><span class="chip">Power BI</span></div>
+        </div>
+        <div class="match"><span class="count" data-target="91">0</span>%<small>تطابق</small></div>
+      </div>
+
+      <div class="rewriting">
+        <span>نعيد صياغة سيرتك لهذه الوظيفة…</span>
+        <div class="bar"><i></i></div>
+      </div>
+      <div class="panel-note">الوظائف المعروضة أمثلة توضيحية لطريقة عمل المنصة.</div>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><b><span class="count" data-target="90000">0</span>+</b><span>وظيفة نشطة في السعودية والخليج</span></div>
+    <div class="stat"><b><span class="count" data-target="25000">0</span>+</b><span>وظيفة جديدة تُضاف يوميًا</span></div>
+    <div class="stat"><b><span class="count" data-target="300">0</span></b><span>طلب تقديم شهريًا لكل مشترك</span></div>
+    <div class="stat"><b>20 ثانية</b><span>لإنشاء حسابك والبدء</span></div>
+  </div>
+</div>
+
+<section id="how">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> كيف يعمل</span>
+      <h2>ثلاث خطوات فقط بينك وبين المقابلة.</h2>
+      <p>جهّز حسابك مرة واحدة، وخلّ ممتاز يشتغل عنك وأنت نايم: يقرأ الوظائف الجديدة، يعيد صياغة سيرتك، ويقدّم عنك — كل يوم.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">١</div>
+        <h3>ارفع سيرتك وحدّد هدفك</h3>
+        <p>ارفع سيرتك الذاتية واختر المدن ونوع جهات العمل اللي تناسبك: حكومي، خاص، شركات عالمية، أو شركات ناشئة. اختياراتك تُحترم في كل طلب.</p>
+        <span class="tag">~ 20 ثانية</span>
+      </div>
+      <div class="step">
+        <div class="num">٢</div>
+        <h3>الذكاء الاصطناعي يقدّم عنك يوميًا</h3>
+        <p>لكل وظيفة مطابقة، يكتب ممتاز نسخة جديدة من سيرتك تتوافق مع كلماتها المفتاحية ومتطلباتها وأنظمة فرز المتقدمين (ATS)، ثم يقدّم باسمك.</p>
+        <span class="tag">تلقائيًا · كل يوم</span>
+      </div>
+      <div class="step">
+        <div class="num">٣</div>
+        <h3>استقبل دعوات المقابلات</h3>
+        <p>الردود ودعوات المقابلات تصلك مباشرة على بريدك الإلكتروني كأنك قدّمت بنفسك. اقبل الفرصة المناسبة أو تجاوزها — القرار لك.</p>
+        <span class="tag">على بريدك مباشرة</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> ليش ممتاز</span>
+      <h2>سيرة ذاتية واحدة ما تكفي في سوق اليوم.</h2>
+      <p>فرصتك في المقابلة تعتمد على أمرين: سيرة ذاتية مفصّلة على مقاس الوظيفة، وتقديم في الأماكن اللي فعلًا تبي تشتغل فيها. ممتاز يسوّي الاثنين تلقائيًا.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat">
+        <span class="eyebrow"><span class="dot"></span> مخصّصة، مو جاهزة</span>
+        <h3>سيرة ذاتية جديدة لكل وظيفة</h3>
+        <p>السير الجاهزة تُستبعد غالبًا قبل ما يشوفها مسؤول التوظيف. ممتاز يعيد بناء سيرتك حسب متطلبات كل وظيفة بدقة، فتجتاز أنظمة الفرز وتوصل للإنسان.</p>
+        <ul>
+          <li>مطابقة الكلمات المفتاحية لكل إعلان وظيفي</li>
+          <li>إبراز الخبرات الأكثر صلة بالوظيفة أولًا</li>
+          <li>بدون أي تعديل يدوي منك</li>
+        </ul>
+      </div>
+      <div class="feat">
+        <span class="eyebrow"><span class="dot"></span> تحكّم كامل</span>
+        <h3>أنت تحدّد وين نقدّم بالضبط</h3>
+        <p>اختر المدن وأنواع جهات العمل، وممتاز يلتزم باختيارك في كل طلب. غيّر استهدافك في أي وقت من لوحة التحكم.</p>
+        <div class="mini-filter">
+          <span class="chip on">الرياض</span><span class="chip on">جدة</span><span class="chip">الدمام</span><span class="chip">عن بُعد</span>
+        </div>
+        <div class="mini-filter">
+          <span class="chip on">حكومي</span><span class="chip on">شركات عالمية</span><span class="chip">قطاع خاص</span><span class="chip">شركات ناشئة</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> آراء المستخدمين</span>
+      <h2>مصمّم لكل باحث عن عمل — من حديث التخرج إلى القيادات.</h2>
+      <!-- ملاحظة مهمة: التقييمات أدناه نماذج توضيحية للتصميم فقط.
+           استبدلها بآراء عملاء حقيقيين (بموافقتهم) قبل الإطلاق التجاري،
+           لأن عرض تقييمات مزيفة كأنها حقيقية مخالف لأنظمة التجارة الإلكترونية. -->
+      <span class="disclaimer">⚑ التقييمات التالية نماذج توضيحية لشكل القسم، وسيتم استبدالها بتجارب عملاء حقيقية.</span>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="false">
+    <div class="marquee-track" id="reviewTrack">
+      <!-- تُملأ بالجافاسكربت وتُكرَّر للحركة المستمرة -->
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot"></span> الأسئلة الشائعة</span>
+      <h2>عندك سؤال؟ هذي أكثر الأسئلة اللي توصلنا.</h2>
+    </div>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q">كيف يقدّم ممتاز على الوظائف بالنيابة عني؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>تحدّد المدن وأنواع جهات العمل مرة واحدة، وممتاز يبحث يوميًا عن الوظائف الجديدة المطابقة لخبراتك، يكتب لكل وظيفة سيرة ذاتية مخصّصة، ثم يقدّم باسمك.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">هل أحتاج أتابع النظام بنفسي؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>لا. بعد إعداد حسابك مرة واحدة يعمل النظام تلقائيًا كل يوم. كل اللي عليك متابعة بريدك لدعوات المقابلات.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">من يختار الوظائف والشركات اللي يتم التقديم عليها؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>أنت. تحدّد المدن وأنواع الجهات من لوحة التحكم، وممتاز يلتزم باختيارك في كل طلب، وتقدر تعدّل استهدافك في أي وقت.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">هل لازم أعيد كتابة سيرتي الذاتية أولًا؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>لا. ارفع سيرتك المحدّثة كما هي، وممتاز يبني نسخة مخصّصة لكل وظيفة تتوافق مع أنظمة فرز المتقدمين (ATS) ومتطلبات مسؤولي التوظيف.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">أنا موظف حاليًا — هل بحثي يبقى سرّيًا؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>نعم. الطلبات تُرسل فقط للجهات اللي وافقت عليها ضمن استهدافك، وبياناتك مشفّرة ولا تُشارك مع أي طرف آخر.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">متى أتوقع أول النتائج؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>التقديم يبدأ من اليوم الأول. سرعة وصول الردود تعتمد على مجالك ومدنك المستهدفة — وكل ما وسّعت نطاق استهدافك زادت فرصك أسرع.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">هل يعرف مسؤول التوظيف أن الذكاء الاصطناعي قدّم عني؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>كل طلب يصدر باسمك وبسيرة ذاتية احترافية مخصّصة فعلًا للوظيفة. ما يشوفه مسؤول التوظيف هو مرشّح قوي ومناسب.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">هل أقدر أوقف الاشتراك مؤقتًا أو ألغيه؟<span class="arrow">▾</span></button>
+        <div class="faq-a"><p>نعم. توقّفه مؤقتًا وترجع تفعّله وقت ما تحتاج، أو تلغي الاشتراك نهائيًا في أي وقت بدون أي التزام.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="sec-head" style="text-align:center;max-width:560px;margin-inline:auto">
+      <span class="eyebrow"><span class="dot"></span> الاشتراك</span>
+      <h2>سعر واحد. كل شيء مشمول.</h2>
+      <p>بدون رسوم خفية وبدون التزام طويل — ألغِ في أي وقت.</p>
+    </div>
+    <div class="price-card">
+      <span class="best">الخطة الشهرية</span>
+      <h3>اشتراك ممتاز</h3>
+      <div class="price">٩٩ <small>ريال / شهريًا</small></div>
+      <div class="price-sub">يبدأ التقديم من اليوم الأول</div>
+      <ul class="price-list">
+        <li>حتى 300 طلب تقديم شهريًا</li>
+        <li>سيرة ذاتية مخصّصة تُكتب لكل وظيفة</li>
+        <li>تقديم يومي تلقائي في السعودية والخليج</li>
+        <li>تحكّم كامل بالمدن وأنواع جهات العمل</li>
+        <li>إيقاف مؤقت أو إلغاء في أي وقت</li>
+      </ul>
+      <button class="btn btn-primary" onclick="openSignup()">اشترك الآن — ٩٩ ريال/شهر</button>
+      <div class="price-note">🔒 الدفع عبر تحويل بنكي آمن · تفعيل الاشتراك خلال ساعات من تأكيد التحويل</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta">
+      <h2>وظيفتك القادمة أقرب مما تتخيّل.</h2>
+      <p>ارفع سيرتك الذاتية الآن وشوف كم وظيفة تطابق خبراتك اليوم في السعودية والخليج — مجانًا وخلال ثوانٍ.</p>
+      <button type="button" class="btn btn-primary" onclick="openSignup()">ابدأ التقديم الآن</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== نافذة إدارة الاشتراك: تفعيل/تجديد · إيقاف مؤقت · إلغاء ===== -->
+<div class="modal-overlay" id="manageModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="close-x" onclick="closeManage()" aria-label="إغلاق">✕</button>
+
+    <div id="manageForm">
+      <h3>إدارة اشتراكي</h3>
+      <p class="m-sub">الاشتراك يُفعَّل لمدة <b>شهر كامل من تاريخ تأكيد التحويل</b>. للتجديد أو إعادة التفعيل ارفع إيصال تحويل جديد، ويصل طلبك للإدارة فورًا على البريد ليتم تنفيذه.</p>
+      <div class="field"><label>البريد الإلكتروني المسجّل</label><input type="email" id="mEmail" placeholder="name@email.com"></div>
+      <div class="field"><label>رقم الجوال المسجّل</label><input type="tel" id="mPhone" placeholder="05xxxxxxxx" dir="rtl"></div>
+      <div class="field"><label>ماذا تريد؟</label>
+        <select id="mAction" onchange="toggleReceiptField()">
+          <option value="activate">تفعيل / تجديد الاشتراك (شهر جديد)</option>
+          <option value="pause">إيقاف الاشتراك مؤقتًا</option>
+          <option value="cancel">إلغاء الاشتراك نهائيًا</option>
+        </select>
+      </div>
+      <div class="field" id="mReceiptField">
+        <label>إيصال التحويل (٩٩ ريال — صورة أو PDF)</label>
+        <input type="file" id="mReceipt" accept="image/*,.pdf">
+      </div>
+      <div class="pay-note" id="mNote">💡 بعد تأكيد التحويل يُحسب اشتراكك شهرًا كاملًا من تاريخه، وتصلك رسالة تأكيد التفعيل على بريدك.</div>
+      <button class="btn btn-primary" onclick="submitManage()">إرسال الطلب</button>
+    </div>
+
+    <div id="manageDone" style="display:none">
+      <div class="done-box">
+        <div class="big">✓</div>
+        <h3 id="manageDoneTitle">وصلنا طلبك!</h3>
+        <p class="m-sub" id="manageDoneMsg" style="margin-top:8px"></p>
+        <button class="btn btn-primary" onclick="closeManage()">تم</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== نافذة الاشتراك: خطوة 1 التسجيل → خطوة 2 الدفع ===== -->
+<div class="modal-overlay" id="signupModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="close-x" onclick="closeSignup()" aria-label="إغلاق">✕</button>
+
+    <!-- الخطوة 1: التسجيل -->
+    <div id="stepRegister">
+      <div class="m-steps"><span class="on"></span><span></span></div>
+      <h3>أنشئ حسابك</h3>
+      <p class="m-sub">خطوة واحدة تفصلك عن التقديم التلقائي — تستغرق أقل من دقيقة.</p>
+      <div class="field"><label>الاسم الكامل</label><input type="text" id="fName" placeholder="مثال: عبدالله محمد"></div>
+      <div class="field"><label>البريد الإلكتروني</label><input type="email" id="fEmail" placeholder="name@email.com"></div>
+      <div class="field"><label>رقم الجوال</label><input type="tel" id="fPhone" placeholder="05xxxxxxxx" dir="rtl"></div>
+      <div class="field"><label>المدينة المستهدفة</label>
+        <select id="fCity">
+          <option>الرياض</option><option>جدة</option><option>الدمام / الخبر / الظهران</option>
+          <option>مكة المكرمة</option><option>المدينة المنورة</option><option>عن بُعد</option><option>كل المدن</option>
+        </select>
+      </div>
+      <div class="field"><label>السيرة الذاتية (PDF / DOC / DOCX)</label><input type="file" id="fCV" accept=".pdf,.doc,.docx"></div>
+      <button class="btn btn-primary" onclick="goToPayment()">متابعة إلى الدفع ←</button>
+    </div>
+
+    <!-- الخطوة 2: الدفع -->
+    <div id="stepPayment" style="display:none">
+      <div class="m-steps"><span class="on"></span><span class="on"></span></div>
+      <h3>بيانات الدفع</h3>
+      <p class="m-sub">حوّل قيمة الاشتراك عبر التحويل البنكي، ثم أكّد التحويل ليتم تفعيل حسابك.</p>
+
+      <div class="pay-summary"><span>اشتراك ممتاز الشهري</span><b>٩٩ ريال / شهر</b></div>
+
+      <div class="bank-box">
+        <div class="bank-row"><span class="bl">البنك</span><span class="bv">Al Rajhi Bank — بنك الراجحي</span></div>
+        <div class="bank-row"><span class="bl">اسم المستفيد</span><span class="bv">[ضع اسم صاحب الحساب هنا]</span></div>
+        <div class="bank-row">
+          <span class="bl">IBAN</span>
+          <span class="bv" style="display:flex;align-items:center;gap:8px">
+            <span id="ibanValue">SA00 0000 0000 0000 0000 0000</span>
+            <button class="copy-btn" onclick="copyIBAN(this)">نسخ</button>
+          </span>
+        </div>
+        <div class="bank-row"><span class="bl">المبلغ</span><span class="bv">SAR 99.00</span></div>
+        <div class="bank-row"><span class="bl">الغرض من التحويل</span><span class="bv" style="direction:rtl">اشتراك ممتاز + رقم جوالك</span></div>
+      </div>
+
+      <div class="pay-note">⚠️ بعد التحويل، ارفع صورة إيصال التحويل بالأسفل (أو أرسلها على بريدنا) ليتم تفعيل اشتراكك خلال ساعات عمل.</div>
+
+      <div class="field"><label>إيصال التحويل (صورة أو PDF)</label><input type="file" id="fReceipt" accept="image/*,.pdf"></div>
+      <button class="btn btn-primary" onclick="confirmPayment()">تأكيد التحويل وتفعيل الاشتراك</button>
+      <button class="btn btn-ghost" onclick="backToRegister()">→ رجوع لتعديل بياناتي</button>
+    </div>
+
+    <!-- الخطوة 3: تم -->
+    <div id="stepDone" style="display:none">
+      <div class="done-box">
+        <div class="big">✓</div>
+        <h3>استلمنا طلبك بنجاح!</h3>
+        <p class="m-sub" style="margin-top:8px">سنراجع التحويل ونفعّل اشتراكك خلال ساعات عمل، وستصلك رسالة تأكيد على بريدك الإلكتروني — وبعدها يبدأ التقديم التلقائي مباشرة.</p>
+        <button class="btn btn-primary" onclick="closeSignup()">تم</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container foot">
+    <span>© 2026 ممتاز — نقدّم عنك على كل وظيفة تناسبك، تلقائيًا.</span>
+    <nav class="foot-links">
+      <a href="#how">كيف يعمل</a>
+      <a href="#pricing">الاشتراك</a>
+      <a href="#faq">الأسئلة الشائعة</a>
+      <a href="#" onclick="openManage();return false;">إدارة اشتراكي</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+/* ===== Sample testimonials (نماذج توضيحية — استبدلها بآراء حقيقية) ===== */
+const sampleReviews = [
+  {t:"رفعت سيرتي يوم السبت، وخلال الأسبوع نفسه وصلتني دعوتين لمقابلات في مجالي.", n:"نموذج توضيحي", r:"مثال: أخصائي تسويق، الرياض", a:"م"},
+  {t:"الفرق الحقيقي إن كل تقديم يطلع بسيرة مكتوبة للوظيفة نفسها، مو نفس الملف يتكرر.", n:"نموذج توضيحي", r:"مثال: مدير مشاريع، جدة", a:"م"},
+  {t:"كنت أقدّم يدويًا على وظايف قليلة بالأسبوع. الآن التقديم يمشي يوميًا وأنا أركّز على الاستعداد للمقابلات.", n:"نموذج توضيحي", r:"مثال: محللة مالية، الدمام", a:"م"},
+  {t:"حدّدت المدن ونوع الشركات اللي أبيها، والنظام التزم فيها بكل طلب.", n:"نموذج توضيحي", r:"مثال: مهندس برمجيات، الرياض", a:"م"},
+  {t:"أنا موظف حاليًا وكان يهمّني السرية — البحث والتقديم صار بدون ما يدري أحد.", n:"نموذج توضيحي", r:"مثال: محلل سلاسل إمداد، الخبر", a:"م"},
+  {t:"وصلني تقديم على جهات ما كانت تخطر على بالي لو دوّرت بنفسي.", n:"نموذج توضيحي", r:"مثال: مهندسة مدنية، الظهران", a:"م"},
+  {t:"دوامي شفتات وما عندي وقت أدوّر — النظام قدّم عني وأنا أتابع بريدي بس.", n:"نموذج توضيحي", r:"مثال: ممرضة، مكة المكرمة", a:"م"},
+  {t:"ساكن خارج المدن الكبيرة وحسبت خياراتي محدودة، لكن التقديم اليومي فتح لي فرص في أكثر من مدينة.", n:"نموذج توضيحي", r:"مثال: محاسب، تبوك", a:"م"}
+];
+
+const track = document.getElementById('reviewTrack');
+const cardHTML = r => `
+  <div class="review">
+    <div class="stars">★★★★★</div>
+    <p>"${r.t}"</p>
+    <div class="who">
+      <div class="avatar">${r.a}</div>
+      <div><b>${r.n}</b><span>${r.r}</span></div>
+    </div>
+  </div>`;
+/* تكرار المجموعة مرتين لحركة marquee متصلة */
+track.innerHTML = sampleReviews.map(cardHTML).join('') + sampleReviews.map(cardHTML).join('');
+
+/* ===== FAQ accordion ===== */
+document.querySelectorAll('.faq-item').forEach(item=>{
+  const q = item.querySelector('.faq-q');
+  const a = item.querySelector('.faq-a');
+  q.addEventListener('click', ()=>{
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(o=>{
+      o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = null;
+    });
+    if(!open){ item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px'; }
+  });
+});
+
+/* ===== Animated counters ===== */
+const fmt = n => n.toLocaleString('ar-SA');
+const animate = el => {
+  const target = +el.dataset.target;
+  const dur = 1400, start = performance.now();
+  const tick = now => {
+    const p = Math.min((now - start)/dur, 1);
+    el.textContent = fmt(Math.floor(target * (1 - Math.pow(1-p, 3))));
+    if(p < 1) requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+};
+const io = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{ if(e.isIntersecting){ animate(e.target); io.unobserve(e.target);} });
+},{threshold:.5});
+document.querySelectorAll('.count').forEach(el=>io.observe(el));
+
+/* ===== CV upload (واجهة فقط — اربطها لاحقًا بخدمتك الخلفية) ===== */
+const input = document.getElementById('cvInput');
+const ok = document.getElementById('uploadOk');
+input.addEventListener('change', ()=>{
+  if(input.files.length){
+    ok.style.display = 'block';
+    ok.textContent = '✓ تم استلام: ' + input.files[0].name + ' — جاري تحليل ملفك…';
+    /* TODO: أرسل الملف إلى Google Apps Script أو أي API خلفي:
+       const fd = new FormData(); fd.append('cv', input.files[0]);
+       fetch('YOUR_BACKEND_URL', {method:'POST', body:fd}); */
+  }
+});
+/* ===== الإعدادات: الصق هنا رابط Google Apps Script بعد نشره ===== */
+const BACKEND_URL = 'YOUR_APPS_SCRIPT_URL'; // مثال: https://script.google.com/macros/s/XXXX/exec
+
+/* إرسال البيانات للخلفية (يدعم إرفاق ملف كـ base64) */
+async function sendToBackend(action, data, file){
+  if(BACKEND_URL === 'YOUR_APPS_SCRIPT_URL') return; // لم يتم الربط بعد
+  const payload = new URLSearchParams({action, ...data});
+  if(file){
+    const b64 = await new Promise((res, rej)=>{
+      const r = new FileReader();
+      r.onload = ()=>res(r.result.split(',')[1]);
+      r.onerror = rej;
+      r.readAsDataURL(file);
+    });
+    payload.append('fileName', file.name);
+    payload.append('fileType', file.type);
+    payload.append('fileData', b64);
+  }
+  try{ await fetch(BACKEND_URL, {method:'POST', body: payload}); }
+  catch(e){ console.error('backend error', e); }
+}
+
+/* ===== تنقّل داخلي سلس — بدون فتح أي روابط خارجية ===== */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click', e=>{
+    e.preventDefault();
+    const t = document.querySelector(a.getAttribute('href'));
+    if(t) t.scrollIntoView({behavior:'smooth'});
+  });
+});
+
+/* ===== نافذة الاشتراك والدفع ===== */
+const modal = document.getElementById('signupModal');
+const steps = {reg: document.getElementById('stepRegister'), pay: document.getElementById('stepPayment'), done: document.getElementById('stepDone')};
+function showStep(k){ Object.values(steps).forEach(s=>s.style.display='none'); steps[k].style.display='block'; }
+function openSignup(){ modal.classList.add('show'); showStep('reg'); document.body.style.overflow='hidden'; }
+function closeSignup(){ modal.classList.remove('show'); document.body.style.overflow=''; }
+modal.addEventListener('click', e=>{ if(e.target===modal) closeSignup(); });
+
+function goToPayment(){
+  const name = document.getElementById('fName').value.trim();
+  const email = document.getElementById('fEmail').value.trim();
+  const phone = document.getElementById('fPhone').value.trim();
+  if(!name || !email.includes('@') || phone.length < 9){
+    alert('فضلًا أكمل الاسم والبريد الإلكتروني ورقم الجوال قبل المتابعة.');
+    return;
+  }
+  /* يُرسل التسجيل للإدارة فورًا (مع السيرة الذاتية إن رُفعت) */
+  sendToBackend('register', {
+    name, email, phone,
+    city: document.getElementById('fCity').value
+  }, document.getElementById('fCV').files[0]);
+  showStep('pay');
+}
+function backToRegister(){ showStep('reg'); }
+function confirmPayment(){
+  const receipt = document.getElementById('fReceipt').files[0];
+  if(!receipt){
+    alert('فضلًا ارفع صورة إيصال التحويل لتأكيد الدفع.');
+    return;
+  }
+  /* طلب تفعيل: يصل للإدارة على البريد مع الإيصال — التفعيل شهر من تاريخ التحويل */
+  sendToBackend('activate', {
+    name: document.getElementById('fName').value.trim(),
+    email: document.getElementById('fEmail').value.trim(),
+    phone: document.getElementById('fPhone').value.trim(),
+    city: document.getElementById('fCity').value
+  }, receipt);
+  showStep('done');
+}
+function copyIBAN(btn){
+  const iban = document.getElementById('ibanValue').textContent.replace(/\s/g,'');
+  navigator.clipboard.writeText(iban).then(()=>{
+    btn.textContent = 'تم النسخ ✓';
+    setTimeout(()=>btn.textContent='نسخ', 1800);
+  });
+}
+/* ===== نافذة إدارة الاشتراك ===== */
+const manageModal = document.getElementById('manageModal');
+function openManage(){
+  manageModal.classList.add('show');
+  document.getElementById('manageForm').style.display='block';
+  document.getElementById('manageDone').style.display='none';
+  document.body.style.overflow='hidden';
+}
+function closeManage(){ manageModal.classList.remove('show'); document.body.style.overflow=''; }
+manageModal.addEventListener('click', e=>{ if(e.target===manageModal) closeManage(); });
+
+function toggleReceiptField(){
+  const act = document.getElementById('mAction').value;
+  document.getElementById('mReceiptField').style.display = act==='activate' ? 'block' : 'none';
+  document.getElementById('mNote').textContent =
+    act==='activate' ? '💡 بعد تأكيد التحويل يُحسب اشتراكك شهرًا كاملًا من تاريخه، وتصلك رسالة تأكيد التفعيل على بريدك.'
+  : act==='pause'    ? '⏸ سيتم إيقاف التقديم مؤقتًا مع الاحتفاظ ببياناتك، وتقدر ترجع تفعّل بإيصال جديد في أي وقت.'
+  :                    '🗑 سيتم إلغاء اشتراكك وحذف طلبات التقديم المستقبلية. تصلك رسالة تأكيد الإلغاء على بريدك.';
+}
+
+function submitManage(){
+  const email = document.getElementById('mEmail').value.trim();
+  const phone = document.getElementById('mPhone').value.trim();
+  const act = document.getElementById('mAction').value;
+  if(!email.includes('@') || phone.length < 9){
+    alert('فضلًا أدخل البريد الإلكتروني ورقم الجوال المسجّلين.');
+    return;
+  }
+  const receipt = document.getElementById('mReceipt').files[0];
+  if(act==='activate' && !receipt){
+    alert('لتفعيل أو تجديد الاشتراك، ارفع إيصال تحويل ٩٩ ريال.');
+    return;
+  }
+  /* يصل الطلب للإدارة على البريد فورًا حسب نوعه: تفعيل / إيقاف / إلغاء */
+  sendToBackend(act, {email, phone}, act==='activate' ? receipt : null);
+
+  const msgs = {
+    activate: 'استلمنا إيصالك. سيتم تأكيد التحويل وتفعيل اشتراكك لمدة شهر من تاريخه، وستصلك رسالة تأكيد على بريدك.',
+    pause: 'استلمنا طلب الإيقاف المؤقت. سيتم تنفيذه وإشعارك على بريدك، وتقدر تعيد التفعيل في أي وقت بإيصال جديد.',
+    cancel: 'استلمنا طلب الإلغاء. سيتم تنفيذه وإشعارك على بريدك خلال ساعات عمل.'
+  };
+  document.getElementById('manageDoneMsg').textContent = msgs[act];
+  document.getElementById('manageForm').style.display='none';
+  document.getElementById('manageDone').style.display='block';
+}
+
+const dz = document.getElementById('dropzone');
+['dragover','dragleave','drop'].forEach(ev=>dz.addEventListener(ev, e=>{
+  e.preventDefault();
+  dz.style.background = ev==='dragover' ? 'var(--mist)' : '';
+  if(ev==='drop' && e.dataTransfer.files.length){
+    input.files = e.dataTransfer.files;
+    input.dispatchEvent(new Event('change'));
+  }
+}));
+</script>
+</body>
+</html>
